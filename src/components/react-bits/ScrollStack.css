@@ -1,0 +1,8 @@
+ .scroll-stack-scroller { position: relative; width: 100%; }
+.scroll-stack-card-wrapper { position: relative; padding-bottom: var(--stack-gap, 90px); }
+.scroll-stack-card { position: relative; box-sizing: border-box; width: 100%; transform-origin: top center; backface-visibility: hidden; }
+.scroll-stack-scroller[data-stacking="true"] .scroll-stack-card { will-change: transform; }
+.scroll-stack-end { height: 40vh; }
+.scroll-stack-scroller[data-stacking="false"] .scroll-stack-card-wrapper { padding-bottom: 20px; }
+.scroll-stack-scroller[data-stacking="false"] .scroll-stack-end { height: 0; }
+@media(prefers-reduced-motion:reduce) { .scroll-stack-card-wrapper { padding-bottom: 20px; } .scroll-stack-card { transform: none !important; filter: none !important; } .scroll-stack-end { height: 0; } }

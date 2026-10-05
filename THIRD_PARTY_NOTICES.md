@@ -78,3 +78,7 @@ All five photographs are attributed individually in public/crediti-fotografici.h
 ## Static location map
 
 The map in `public/maps/trullo-natalino.svg` is locally rendered from © OpenStreetMap contributors data, licensed under ODbL 1.0: https://www.openstreetmap.org/copyright. The geographic extract is included in `scripts/data/location-map.json` under the same ODbL license; regenerate the illustration with `node scripts/generate-location-map.mjs`. The custom trullo marker is placed at the coordinates supplied by the owner (40°45′42.1″N, 17°20′27.1″E). The illustration and trullo marker are local designs, not Google Maps screenshots.
+
+## ScrollStack — source supplied by the user, 2026-10-05
+
+Adapted from the supplied React Bits ScrollStack JavaScript + CSS under the React Bits license reproduced above. Local adaptations: TypeScript, window scrolling, stable untransformed wrapper measurements, section-scoped DOM queries, responsive card heights, ResizeObserver, reduced-motion and short-viewport static layouts, a user-selectable static reading mode, and Lenis lifecycle cleanup/offscreen suspension. Lenis is licensed under MIT; its license is included in node_modules/lenis/LICENSE.

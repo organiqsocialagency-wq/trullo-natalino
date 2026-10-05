@@ -9,6 +9,8 @@ import { Navbar } from "./Navbar";
 import { Experiences } from "./Experiences";
 import { Events } from "./Events";
 import { Seaside } from "./Seaside";
+import { Comforts } from "./Comforts";
+import { FAQs } from "./FAQs";
 import { Booking } from "./Booking";
 import { Footer } from "./Footer";
 import { PhotoGallery } from "./PhotoGallery";
@@ -33,10 +35,12 @@ export function HomePage() {
             onExplore={openGallery}
           />
           <Dimora onExplore={openGallery} />
+          <Comforts />
           <Experiences />
           <Seaside />
           <Events />
           <GallerySection onExplore={openGallery} />
+          <FAQs />
           <Booking />
         </main>
         <Footer />

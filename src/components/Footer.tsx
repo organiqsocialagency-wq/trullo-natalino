@@ -35,6 +35,8 @@ export function Footer() {
           <a className="footer-link" href="#essenza">La casa</a>
           <a className="footer-link" href="#esperienze">Locorotondo</a>
           <a className="footer-link" href="#fotografie">Le fotografie</a>
+          <a className="footer-link" href="#comfort">I comfort</a>
+          <a className="footer-link" href="#faq">FAQ</a>
           <a className="footer-link" href="#prenota">Il tuo soggiorno</a>
         </nav>
         <div className="overflow-hidden py-5" aria-hidden="true">
