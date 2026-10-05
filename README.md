@@ -13,9 +13,9 @@ npm run dev
 
 ## Pubblicazione
 
-Sito: https://organiqsocialagency-wq.github.io/agrosilente/
+Sito: https://organiqsocialagency-wq.github.io/trullo-natalino/
 
-Ogni push su `main` esegue i controlli, genera il sito statico e pubblica su GitHub Pages tramite Actions. La build statica usa il prefisso `/agrosilente`; lo sviluppo locale rimane alla radice.
+Ogni push su `main` esegue i controlli, genera il sito statico e pubblica su GitHub Pages tramite Actions. La build statica usa il prefisso `/trullo-natalino`; lo sviluppo locale rimane alla radice.
 
 ```sh
 npm run build:pages

@@ -7,3 +7,10 @@ This version has breaking changes — APIs, conventions, and file structure may 
 This block is written and re-added by `next dev` — verify at `node_modules/next/dist/server/lib/generate-agent-files.js`. Removing it from a diff only re-creates the uncommitted change; committing it with your work keeps the tree clean.
 
 <!-- END:nextjs-agent-rules -->
+
+
+# Identità e pubblicazione
+
+Questa cartella contiene esclusivamente Trullo Natalino. Repository: https://github.com/organiqsocialagency-wq/trullo-natalino. Sito: https://organiqsocialagency-wq.github.io/trullo-natalino/.
+
+Agrosilente è un progetto separato: non pubblicare qui i suoi contenuti e non usare mai il repository organiqsocialagency-wq/agrosilente per Trullo Natalino. Verificare git remote -v e scripts/check-site-identity.mjs prima della pubblicazione.
